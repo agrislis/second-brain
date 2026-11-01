@@ -1,0 +1,35 @@
+# Operating system files / Файлы операционной системы
+.DS_Store
+Thumbs.db
+
+# Local configuration and secrets / Локальная конфигурация и секреты
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.token
+*.secret
+
+# Real vault content / Реальное содержимое vault
+vault/
+.obsidian/
+10_inbox/
+20_memory/
+30_notes/
+40_areas/
+50_topics/
+60_projects/
+70_people/
+80_moc/
+95_exports/
+
+# Sensitive material / Чувствительные материалы
+health/
+private/
+*.private.md
+
+# Raw archives / Сырые архивы
+*.zip
+*.tar
+*.tar.gz

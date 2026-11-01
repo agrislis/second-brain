@@ -1,0 +1,14 @@
+{
+  "schema_version": "0.3",
+  "updated": "{{timestamp}}",
+  "documents": [
+    {
+      "path": "{{relative_path}}",
+      "type": "{{document_type}}",
+      "title": "{{title}}",
+      "content_hash": "{{sha256}}",
+      "updated": "{{timestamp}}",
+      "supersedes": null
+    }
+  ]
+}
